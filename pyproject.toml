@@ -1,9 +1,9 @@
 [project]
 name = "shipfreight"
 authors = [
-    { name = "Dernis ebama", email = "ebamadernis@gmail.com"}
+    { name = "Ebama Dernis", email = "ebamadernis@gmail.com"}
 ]
-description = "Ship Freight gestion des transports et des frets"
+description = "Gestion des transports et frets"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

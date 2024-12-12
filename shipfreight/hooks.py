@@ -1,7 +1,7 @@
 app_name = "shipfreight"
 app_title = "Ship Freight"
-app_publisher = "Dernis ebama"
-app_description = "Ship Freight gestion des transports et des frets"
+app_publisher = "Ebama Dernis"
+app_description = "Gestion des transports et frets"
 app_email = "ebamadernis@gmail.com"
 app_license = "mit"
 # required_apps = []

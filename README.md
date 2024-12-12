@@ -1,6 +1,6 @@
 ## Ship Freight
 
-Ship Freight gestion des transports et des frets
+Gestion des transports et frets
 
 #### License
 
