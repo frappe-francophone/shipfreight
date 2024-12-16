@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-16 18:35:43.506953",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "recherche_par",
+  "section_break_zwos",
+  "column_break_rzpq",
+  "periode_predefinie",
+  "column_break_htyv",
+  "date_debut",
+  "column_break_oirj",
+  "date_fin",
+  "section_break_xakw",
+  "trajet",
+  "passager",
+  "section_break_xosn",
+  "table_bbcu"
+ ],
+ "fields": [
+  {
+   "fieldname": "recherche_par",
+   "fieldtype": "Select",
+   "label": "Recherche Par"
+  },
+  {
+   "fieldname": "section_break_zwos",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_debut",
+   "fieldtype": "Data",
+   "label": "Date debut"
+  },
+  {
+   "fieldname": "column_break_oirj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_fin",
+   "fieldtype": "Data",
+   "label": "Date Fin"
+  },
+  {
+   "fieldname": "column_break_rzpq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "periode_predefinie",
+   "fieldtype": "Button",
+   "label": "Periode Predefinie"
+  },
+  {
+   "fieldname": "section_break_xakw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "trajet",
+   "fieldtype": "Data",
+   "label": "Trajet"
+  },
+  {
+   "fieldname": "passager",
+   "fieldtype": "Data",
+   "label": "Passager"
+  },
+  {
+   "fieldname": "column_break_htyv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_xosn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_bbcu",
+   "fieldtype": "Table",
+   "options": "Liste Reservation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-12-16 19:01:21.360660",
+ "modified_by": "Administrator",
+ "module": "Ship Freight",
+ "name": "Suivi Reservation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
