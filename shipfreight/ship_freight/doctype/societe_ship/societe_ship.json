@@ -6,7 +6,25 @@
  "engine": "InnoDB",
  "field_order": [
   "raison_sociale",
-  "id_nat"
+  "societe_parent",
+  "id_nat",
+  "num_rccm",
+  "saut_colonne1",
+  "num_impot",
+  "num_tva",
+  "code_postal",
+  "saut_section",
+  "adresse",
+  "pays",
+  "ville",
+  "saut_colonne2",
+  "telephone",
+  "telehone_bureau",
+  "fax",
+  "mail",
+  "saut_section2",
+  "banque",
+  "devise"
  ],
  "fields": [
   {
@@ -18,11 +36,104 @@
    "fieldname": "id_nat",
    "fieldtype": "Data",
    "label": "Id Nat"
+  },
+  {
+   "fieldname": "num_rccm",
+   "fieldtype": "Data",
+   "label": "Num RCCM"
+  },
+  {
+   "fieldname": "num_impot",
+   "fieldtype": "Data",
+   "label": "Num Imp\u00f4t"
+  },
+  {
+   "default": "0",
+   "fieldname": "societe_parent",
+   "fieldtype": "Check",
+   "label": "Soci\u00e9t\u00e9 Parent"
+  },
+  {
+   "fieldname": "num_tva",
+   "fieldtype": "Data",
+   "label": "Num TVA"
+  },
+  {
+   "fieldname": "code_postal",
+   "fieldtype": "Data",
+   "label": "Code Postal"
+  },
+  {
+   "fieldname": "adresse",
+   "fieldtype": "Data",
+   "label": "Adresse"
+  },
+  {
+   "fieldname": "pays",
+   "fieldtype": "Link",
+   "label": "Pays",
+   "options": "Pays Ship"
+  },
+  {
+   "fieldname": "ville",
+   "fieldtype": "Link",
+   "label": "Ville",
+   "options": "Ville Ship"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Phone",
+   "label": "T\u00e9l\u00e9phone"
+  },
+  {
+   "fieldname": "telehone_bureau",
+   "fieldtype": "Phone",
+   "label": "T\u00e9l\u00e9phone Bureau"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Phone",
+   "label": "Fax"
+  },
+  {
+   "fieldname": "mail",
+   "fieldtype": "Data",
+   "label": "Mail"
+  },
+  {
+   "fieldname": "banque",
+   "fieldtype": "Data",
+   "label": "Banque"
+  },
+  {
+   "fieldname": "devise",
+   "fieldtype": "Data",
+   "label": "Devise "
+  },
+  {
+   "fieldname": "saut_colonne1",
+   "fieldtype": "Column Break",
+   "label": "saut Colonne"
+  },
+  {
+   "fieldname": "saut_section",
+   "fieldtype": "Section Break",
+   "label": "Saut Section"
+  },
+  {
+   "fieldname": "saut_colonne2",
+   "fieldtype": "Column Break",
+   "label": "Saut Colonne"
+  },
+  {
+   "fieldname": "saut_section2",
+   "fieldtype": "Section Break",
+   "label": "Saut Table"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-12 20:31:27.377108",
+ "modified": "2024-12-16 18:50:32.273051",
  "modified_by": "Administrator",
  "module": "Ship Freight",
  "name": "Societe Ship",
