@@ -22,6 +22,7 @@
   "telehone_bureau",
   "fax",
   "mail",
+  "tab_break_vamq",
   "saut_section2",
   "banque",
   "devise"
@@ -129,11 +130,15 @@
    "fieldname": "saut_section2",
    "fieldtype": "Section Break",
    "label": "Saut Table"
+  },
+  {
+   "fieldname": "tab_break_vamq",
+   "fieldtype": "Tab Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-16 18:50:32.273051",
+ "modified": "2024-12-16 19:17:31.082965",
  "modified_by": "Administrator",
  "module": "Ship Freight",
  "name": "Societe Ship",
