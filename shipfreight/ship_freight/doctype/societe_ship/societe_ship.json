@@ -22,7 +22,6 @@
   "telehone_bureau",
   "fax",
   "mail",
-  "tab_break_vamq",
   "saut_section2",
   "banque",
   "devise"
@@ -31,7 +30,9 @@
   {
    "fieldname": "raison_sociale",
    "fieldtype": "Data",
-   "label": "Raison Sociale"
+   "in_list_view": 1,
+   "label": "Raison Sociale",
+   "reqd": 1
   },
   {
    "fieldname": "id_nat",
@@ -67,19 +68,22 @@
   {
    "fieldname": "adresse",
    "fieldtype": "Data",
-   "label": "Adresse"
+   "label": "Adresse",
+   "reqd": 1
   },
   {
    "fieldname": "pays",
    "fieldtype": "Link",
    "label": "Pays",
-   "options": "Pays Ship"
+   "options": "Pays Ship",
+   "reqd": 1
   },
   {
    "fieldname": "ville",
    "fieldtype": "Link",
    "label": "Ville",
-   "options": "Ville Ship"
+   "options": "Ville Ship",
+   "reqd": 1
   },
   {
    "fieldname": "telephone",
@@ -113,32 +117,24 @@
   },
   {
    "fieldname": "saut_colonne1",
-   "fieldtype": "Column Break",
-   "label": "saut Colonne"
+   "fieldtype": "Column Break"
   },
   {
    "fieldname": "saut_section",
-   "fieldtype": "Section Break",
-   "label": "Saut Section"
+   "fieldtype": "Section Break"
   },
   {
    "fieldname": "saut_colonne2",
-   "fieldtype": "Column Break",
-   "label": "Saut Colonne"
+   "fieldtype": "Column Break"
   },
   {
    "fieldname": "saut_section2",
-   "fieldtype": "Section Break",
-   "label": "Saut Table"
-  },
-  {
-   "fieldname": "tab_break_vamq",
-   "fieldtype": "Tab Break"
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-16 19:17:31.082965",
+ "modified": "2024-12-17 15:27:59.282604",
  "modified_by": "Administrator",
  "module": "Ship Freight",
  "name": "Societe Ship",
