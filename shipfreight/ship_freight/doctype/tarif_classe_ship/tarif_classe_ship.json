@@ -8,7 +8,9 @@
   "num\u00e9ro_tarif",
   "libelle",
   "kilo_accepte",
-  "prix"
+  "prix",
+  "code_classe",
+  "devise"
  ],
  "fields": [
   {
@@ -30,11 +32,22 @@
    "fieldname": "prix",
    "fieldtype": "Currency",
    "label": "Prix"
+  },
+  {
+   "fieldname": "code_classe",
+   "fieldtype": "Link",
+   "label": "Code Classe",
+   "options": "Classe Ship"
+  },
+  {
+   "fieldname": "devise",
+   "fieldtype": "Currency",
+   "label": "Devise"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-16 13:50:20.650640",
+ "modified": "2024-12-17 16:32:38.027221",
  "modified_by": "Administrator",
  "module": "Ship Freight",
  "name": "Tarif Classe Ship",
