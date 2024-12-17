@@ -1,0 +1,145 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-17 16:44:15.786132",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "raison_sociale",
+  "numero_agence",
+  "libelle",
+  "desactive",
+  "saut_colonne",
+  "prefix_ticket",
+  "suffix_ticket",
+  "adresse",
+  "quartier",
+  "commune",
+  "saut_colonne1",
+  "pays",
+  "ville",
+  "heure_majoration_depart",
+  "change_onglet",
+  "liste_moyen_transport"
+ ],
+ "fields": [
+  {
+   "fieldname": "raison_sociale",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Raison Sociale",
+   "options": "Societe Ship",
+   "reqd": 1
+  },
+  {
+   "fieldname": "numero_agence",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Num\u00e9ro Agence",
+   "reqd": 1
+  },
+  {
+   "fieldname": "libelle",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Libelle",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "desactive",
+   "fieldtype": "Check",
+   "label": "Desactive"
+  },
+  {
+   "fieldname": "saut_colonne",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "prefix_ticket",
+   "fieldtype": "Data",
+   "label": "Pr\u00e9fixe Ticket",
+   "reqd": 1
+  },
+  {
+   "fieldname": "suffix_ticket",
+   "fieldtype": "Data",
+   "label": "Suffixe Ticket",
+   "reqd": 1
+  },
+  {
+   "fieldname": "adresse",
+   "fieldtype": "Data",
+   "label": "Adresse",
+   "reqd": 1
+  },
+  {
+   "fieldname": "quartier",
+   "fieldtype": "Data",
+   "label": "Quartier"
+  },
+  {
+   "fieldname": "commune",
+   "fieldtype": "Data",
+   "label": "Commune"
+  },
+  {
+   "fieldname": "saut_colonne1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pays",
+   "fieldtype": "Link",
+   "label": "Pays",
+   "options": "Pays Ship",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ville",
+   "fieldtype": "Link",
+   "label": "Ville",
+   "options": "Ville Ship",
+   "reqd": 1
+  },
+  {
+   "fieldname": "heure_majoration_depart",
+   "fieldtype": "Time",
+   "label": "Heure Majoration D\u00e9part"
+  },
+  {
+   "fieldname": "change_onglet",
+   "fieldtype": "Tab Break",
+   "label": "Change Onglet"
+  },
+  {
+   "fieldname": "liste_moyen_transport",
+   "fieldtype": "Table",
+   "label": "Liste de Moyen de transport",
+   "options": "Liste Moyen Transport Ship"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-17 18:30:32.718811",
+ "modified_by": "Administrator",
+ "module": "Ship Freight",
+ "name": "Agence Ship",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
