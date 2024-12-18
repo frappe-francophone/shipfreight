@@ -1,0 +1,171 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-18 16:40:08.603134",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "id_trajet",
+  "raison_sociale",
+  "numero_agence",
+  "code_destination",
+  "column_break_rcrm",
+  "point_depart",
+  "point_arrive",
+  "tarif_trajet",
+  "devise",
+  "amended_from",
+  "column_break_eeni",
+  "mode_transport",
+  "statut",
+  "column_break_evxx",
+  "heure_majoration_defaut",
+  "ajouter_transit",
+  "ligne_transit",
+  "section_break_cyxx",
+  "heure_majoration_depart",
+  "tab_break_roae"
+ ],
+ "fields": [
+  {
+   "fieldname": "id_trajet",
+   "fieldtype": "Int",
+   "label": "Id Trajet"
+  },
+  {
+   "fieldname": "raison_sociale",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Raison Sociale",
+   "options": "Societe Ship",
+   "reqd": 1
+  },
+  {
+   "fieldname": "numero_agence",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Numero Agence",
+   "options": "Agence Ship",
+   "reqd": 1
+  },
+  {
+   "fieldname": "code_destination",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Code Destination",
+   "options": "Destination ship",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_rcrm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "point_depart",
+   "fieldtype": "Data",
+   "label": "Point depart"
+  },
+  {
+   "fieldname": "point_arrive",
+   "fieldtype": "Data",
+   "label": "point Arrive"
+  },
+  {
+   "fieldname": "tarif_trajet",
+   "fieldtype": "Currency",
+   "label": "Tarif Trajet",
+   "reqd": 1
+  },
+  {
+   "fieldname": "devise",
+   "fieldtype": "Link",
+   "label": "Devise",
+   "options": "Devise"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Trajet Ship",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_eeni",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mode_transport",
+   "fieldtype": "Select",
+   "label": "Mode Transport",
+   "reqd": 1
+  },
+  {
+   "fieldname": "statut",
+   "fieldtype": "Select",
+   "label": "Statut"
+  },
+  {
+   "fieldname": "column_break_evxx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "heure_majoration_defaut",
+   "fieldtype": "Check",
+   "label": "Heure Majoration Defaut"
+  },
+  {
+   "fieldname": "section_break_cyxx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "heure_majoration_depart",
+   "fieldtype": "Time",
+   "label": "Heure Majoration Depart"
+  },
+  {
+   "fieldname": "tab_break_roae",
+   "fieldtype": "Tab Break"
+  },
+  {
+   "fieldname": "ajouter_transit",
+   "fieldtype": "Button",
+   "label": "Ajouter Transit"
+  },
+  {
+   "fieldname": "ligne_transit",
+   "fieldtype": "Table",
+   "label": "Ligne Transit",
+   "options": "Ligne Transit Ship"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-12-18 17:15:17.124187",
+ "modified_by": "Administrator",
+ "module": "Ship Freight",
+ "name": "Trajet Ship",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

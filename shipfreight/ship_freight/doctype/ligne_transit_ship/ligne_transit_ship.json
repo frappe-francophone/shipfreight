@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-18 17:14:42.254603",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "numero_transit",
+  "ville",
+  "duree",
+  "statut"
+ ],
+ "fields": [
+  {
+   "fieldname": "numero_transit",
+   "fieldtype": "Link",
+   "label": "Numero Transit",
+   "options": "Transit Ship"
+  },
+  {
+   "fieldname": "ville",
+   "fieldtype": "Link",
+   "label": "Ville",
+   "options": "Ville Ship"
+  },
+  {
+   "fieldname": "duree",
+   "fieldtype": "Time",
+   "label": "Duree"
+  },
+  {
+   "fieldname": "statut",
+   "fieldtype": "Select",
+   "label": "Statut"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-18 17:20:44.232514",
+ "modified_by": "Administrator",
+ "module": "Ship Freight",
+ "name": "Ligne Transit Ship",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
