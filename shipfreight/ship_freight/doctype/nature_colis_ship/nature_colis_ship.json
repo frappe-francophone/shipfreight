@@ -1,0 +1,38 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-18 10:24:29.349342",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "code_nature",
+  "libelle"
+ ],
+ "fields": [
+  {
+   "fieldname": "code_nature",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Code Nature",
+   "reqd": 1
+  },
+  {
+   "fieldname": "libelle",
+   "fieldtype": "Data",
+   "label": "Libelle"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-18 10:27:00.401996",
+ "modified_by": "Administrator",
+ "module": "Ship Freight",
+ "name": "Nature Colis Ship",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
