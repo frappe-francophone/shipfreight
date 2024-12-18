@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-18 10:39:11.955481",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "numero",
+  "libelle",
+  "description",
+  "id_trajet",
+  "taxable_par_poids",
+  "poids",
+  "dimension",
+  "unite",
+  "nature",
+  "prix",
+  "devise"
+ ],
+ "fields": [
+  {
+   "fieldname": "numero",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Numero",
+   "reqd": 1
+  },
+  {
+   "fieldname": "libelle",
+   "fieldtype": "Data",
+   "label": "Libelle"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "id_trajet",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Id Trajet",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "taxable_par_poids",
+   "fieldtype": "Check",
+   "label": "Taxable par poids"
+  },
+  {
+   "fieldname": "poids",
+   "fieldtype": "Float",
+   "label": "Poids"
+  },
+  {
+   "fieldname": "dimension",
+   "fieldtype": "Float",
+   "label": "Dimension"
+  },
+  {
+   "fieldname": "unite",
+   "fieldtype": "Data",
+   "label": "Unit\u00e9"
+  },
+  {
+   "fieldname": "nature",
+   "fieldtype": "Link",
+   "label": "Nature",
+   "options": "Nature Colis Ship"
+  },
+  {
+   "fieldname": "prix",
+   "fieldtype": "Data",
+   "label": "Prix"
+  },
+  {
+   "fieldname": "devise",
+   "fieldtype": "Data",
+   "label": "Devise"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-18 10:55:13.656165",
+ "modified_by": "Administrator",
+ "module": "Ship Freight",
+ "name": "Tarif Colis Ship",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
