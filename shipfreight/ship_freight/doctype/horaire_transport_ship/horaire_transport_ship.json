@@ -1,0 +1,130 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-24 21:32:08.986060",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "raison_sociale",
+  "numero_agence",
+  "id_trajet",
+  "code_destination",
+  "column_break_namx",
+  "date_depart",
+  "jour_lettre",
+  "date_arriver",
+  "date_retour",
+  "section_break_gjnq",
+  "heure_embarquement",
+  "statut",
+  "saut_colonne",
+  "heure_depart"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_gjnq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "raison_sociale",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Raison Sociale",
+   "options": "Societe Ship",
+   "reqd": 1
+  },
+  {
+   "fieldname": "numero_agence",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Num\u00e9ro Agence",
+   "options": "Agence Ship",
+   "reqd": 1
+  },
+  {
+   "fieldname": "id_trajet",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Id Trajet",
+   "options": "Trajet Ship",
+   "reqd": 1
+  },
+  {
+   "fieldname": "code_destination",
+   "fieldtype": "Link",
+   "label": "Code Destination",
+   "options": "Destination ship"
+  },
+  {
+   "fieldname": "column_break_namx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_depart",
+   "fieldtype": "Date",
+   "label": "Date D\u00e9part"
+  },
+  {
+   "fieldname": "jour_lettre",
+   "fieldtype": "Data",
+   "label": "Jour Lettre"
+  },
+  {
+   "fieldname": "date_arriver",
+   "fieldtype": "Date",
+   "label": "Date Arriver"
+  },
+  {
+   "fieldname": "date_retour",
+   "fieldtype": "Date",
+   "label": "Date Retour"
+  },
+  {
+   "fieldname": "heure_depart",
+   "fieldtype": "Time",
+   "label": "Heure D\u00e9part "
+  },
+  {
+   "fieldname": "heure_embarquement",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Heure Embarquement",
+   "reqd": 1
+  },
+  {
+   "fieldname": "statut",
+   "fieldtype": "Select",
+   "label": "Statut"
+  },
+  {
+   "fieldname": "saut_colonne",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-12-24 22:02:35.640081",
+ "modified_by": "Administrator",
+ "module": "Ship Freight",
+ "name": "Horaire Transport Ship",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
