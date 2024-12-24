@@ -1,0 +1,172 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-24 22:25:42.006637",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "raison_sociale",
+  "type_equipage",
+  "num_equipage",
+  "nom",
+  "prenom",
+  "date_naissance",
+  "column_break_xnhs",
+  "adresse",
+  "numero_telephone",
+  "email",
+  "section_break",
+  "type_permis",
+  "numero_permis",
+  "date_permis_delivrance",
+  "date_permis_expiration",
+  "column_break_wrvq",
+  "type_transport",
+  "assurance_professionnelle",
+  "section_breakd",
+  "certification",
+  "section_breaks",
+  "icidents"
+ ],
+ "fields": [
+  {
+   "fieldname": "raison_sociale",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Raison Sociale",
+   "options": "Societe Ship",
+   "reqd": 1
+  },
+  {
+   "fieldname": "type_equipage",
+   "fieldtype": "Select",
+   "label": "Type Equipage "
+  },
+  {
+   "fieldname": "num_equipage",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Num Equipage",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nom",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nom",
+   "reqd": 1
+  },
+  {
+   "fieldname": "prenom",
+   "fieldtype": "Data",
+   "label": "Pr\u00e9nom"
+  },
+  {
+   "fieldname": "date_naissance",
+   "fieldtype": "Data",
+   "label": "Date Naissance"
+  },
+  {
+   "fieldname": "column_break_xnhs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "adresse",
+   "fieldtype": "Text",
+   "label": "Adresse"
+  },
+  {
+   "fieldname": "numero_telephone",
+   "fieldtype": "Phone",
+   "label": "Num\u00e9ro T\u00e9l\u00e9phone"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "section_break",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "type_permis",
+   "fieldtype": "Select",
+   "label": "Type Permis",
+   "reqd": 1
+  },
+  {
+   "fieldname": "numero_permis",
+   "fieldtype": "Data",
+   "label": "Num\u00e9ro Permis",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_permis_delivrance",
+   "fieldtype": "Date",
+   "label": "Date Permis de D\u00e9livrance ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_permis_expiration",
+   "fieldtype": "Date",
+   "label": "Date Permis Expiration"
+  },
+  {
+   "fieldname": "column_break_wrvq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type_transport",
+   "fieldtype": "Select",
+   "label": "Type Transport"
+  },
+  {
+   "fieldname": "assurance_professionnelle",
+   "fieldtype": "Data",
+   "label": "Assurance Professionnelle "
+  },
+  {
+   "fieldname": "section_breakd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "certification",
+   "fieldtype": "Data",
+   "label": "Certification "
+  },
+  {
+   "fieldname": "section_breaks",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "icidents",
+   "fieldtype": "Data",
+   "label": "Incidents "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-24 22:55:42.073179",
+ "modified_by": "Administrator",
+ "module": "Ship Freight",
+ "name": "Equipage Ship",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
