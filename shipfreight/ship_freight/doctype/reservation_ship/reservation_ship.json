@@ -1,0 +1,253 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-24 10:24:42.064283",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_gcrc",
+  "raison_sociale",
+  "id_trajet",
+  "id_manifeste",
+  "heure_depart",
+  "column_break_ocmb",
+  "nom_transport",
+  "date_comptabilisation",
+  "nombre_passager",
+  "heure_embarquement",
+  "date_embarquement",
+  "column_break_vdnz",
+  "statut",
+  "poids_total",
+  "column_break_ahin",
+  "type_identite",
+  "numero_identite",
+  "nombre_bagage",
+  "poids",
+  "numeros_siege",
+  "ajouter",
+  "section_break_hbto",
+  "passagers",
+  "section_break_ugjs",
+  "noms",
+  "telephone",
+  "adresse",
+  "age",
+  "classe_siege",
+  "prix_siege",
+  "devise_c",
+  "section_break_bmsp",
+  "montant",
+  "devise",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_gcrc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "raison_sociale",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Raison Sociale",
+   "options": "Societe Ship",
+   "reqd": 1
+  },
+  {
+   "fieldname": "id_trajet",
+   "fieldtype": "Link",
+   "label": "Id Trajet",
+   "options": "Trajet Ship"
+  },
+  {
+   "fieldname": "id_manifeste",
+   "fieldtype": "Int",
+   "label": "Id Manifeste"
+  },
+  {
+   "fieldname": "heure_depart",
+   "fieldtype": "Time",
+   "label": "Heure Depart"
+  },
+  {
+   "fieldname": "column_break_ocmb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nom_transport",
+   "fieldtype": "Float",
+   "label": "Nom Transport"
+  },
+  {
+   "fieldname": "date_comptabilisation",
+   "fieldtype": "Date",
+   "label": "Date Comptabilisation"
+  },
+  {
+   "fieldname": "nombre_passager",
+   "fieldtype": "Select",
+   "label": "Nombre Passager"
+  },
+  {
+   "fieldname": "heure_embarquement",
+   "fieldtype": "Time",
+   "label": "Heure embarquement "
+  },
+  {
+   "fieldname": "date_embarquement",
+   "fieldtype": "Date",
+   "label": "Date Embarquement"
+  },
+  {
+   "fieldname": "column_break_vdnz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "statut",
+   "fieldtype": "Select",
+   "label": "Statut"
+  },
+  {
+   "fieldname": "poids_total",
+   "fieldtype": "Float",
+   "label": "Poids Total"
+  },
+  {
+   "fieldname": "section_break_ugjs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "noms",
+   "fieldtype": "Data",
+   "label": "Noms"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Phone",
+   "label": "Telephone"
+  },
+  {
+   "fieldname": "adresse",
+   "fieldtype": "Text",
+   "label": "Adresse"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Float",
+   "label": "Age"
+  },
+  {
+   "fieldname": "classe_siege",
+   "fieldtype": "Link",
+   "label": "Classe Siege",
+   "options": "Classe Ship"
+  },
+  {
+   "fieldname": "section_break_bmsp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "montant",
+   "fieldtype": "Currency",
+   "label": "Montant "
+  },
+  {
+   "fieldname": "devise",
+   "fieldtype": "Link",
+   "label": "Devise",
+   "options": "Devise"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Reservation Ship",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_ahin",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type_identite",
+   "fieldtype": "Select",
+   "label": "Type Identite"
+  },
+  {
+   "fieldname": "numero_identite",
+   "fieldtype": "Data",
+   "label": "Numero Identite"
+  },
+  {
+   "fieldname": "prix_siege",
+   "fieldtype": "Currency",
+   "label": "Prix Siege"
+  },
+  {
+   "fieldname": "devise_c",
+   "fieldtype": "Link",
+   "label": "Devise C",
+   "options": "Devise"
+  },
+  {
+   "fieldname": "nombre_bagage",
+   "fieldtype": "Float",
+   "label": "Nombre Bagage"
+  },
+  {
+   "fieldname": "poids",
+   "fieldtype": "Float",
+   "label": "Poids"
+  },
+  {
+   "fieldname": "numeros_siege",
+   "fieldtype": "Data",
+   "label": "Numeros siege"
+  },
+  {
+   "fieldname": "ajouter",
+   "fieldtype": "Button",
+   "label": "Ajouter"
+  },
+  {
+   "fieldname": "section_break_hbto",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "passagers",
+   "fieldtype": "Table",
+   "label": "Passagers",
+   "options": "Passagers Ship"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-12-24 11:43:37.545072",
+ "modified_by": "Administrator",
+ "module": "Ship Freight",
+ "name": "Reservation Ship",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
