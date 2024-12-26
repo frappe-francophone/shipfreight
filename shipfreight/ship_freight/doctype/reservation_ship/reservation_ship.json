@@ -38,8 +38,7 @@
   "devise_c",
   "section_break_bmsp",
   "montant",
-  "devise",
-  "amended_from"
+  "devise"
  ],
  "fields": [
   {
@@ -159,16 +158,6 @@
    "options": "Devise"
   },
   {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Reservation Ship",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
-  },
-  {
    "fieldname": "column_break_ahin",
    "fieldtype": "Column Break"
   },
@@ -227,7 +216,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-12-24 11:43:37.545072",
+ "modified": "2024-12-26 13:12:08.432373",
  "modified_by": "Administrator",
  "module": "Ship Freight",
  "name": "Reservation Ship",

@@ -77,13 +77,13 @@
   {
    "fieldname": "table_bbcu",
    "fieldtype": "Table",
-   "options": "Liste Reservation"
+   "options": "Liste Reservation Ship"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-12-16 19:01:21.360660",
+ "modified": "2024-12-26 13:35:04.169152",
  "modified_by": "Administrator",
  "module": "Ship Freight",
  "name": "Suivi Reservation",

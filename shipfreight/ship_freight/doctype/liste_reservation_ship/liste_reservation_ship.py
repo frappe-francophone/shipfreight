@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class ListeReservation(Document):
+class ListeReservationShip(Document):
 	pass

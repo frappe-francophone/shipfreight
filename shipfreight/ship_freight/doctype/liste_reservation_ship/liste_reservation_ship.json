@@ -1,0 +1,195 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-16 19:00:59.936565",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "raison_sociale",
+  "numero_agence",
+  "id_trajet",
+  "id_manifeste",
+  "heure_depart",
+  "nom_transport",
+  "date_comptabilisation",
+  "caisse_banque",
+  "nombre_passager",
+  "montant",
+  "devise",
+  "statut",
+  "poids_total",
+  "column_break_oniy",
+  "noms",
+  "telephone",
+  "adresse",
+  "age",
+  "classe_age",
+  "classe_siege",
+  "prix_siege",
+  "devise1",
+  "type_identite",
+  "numero_identite",
+  "nombre_bagage",
+  "poids",
+  "numero_siege"
+ ],
+ "fields": [
+  {
+   "fieldname": "raison_sociale",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Raison Sociale",
+   "options": "Societe Ship",
+   "reqd": 1
+  },
+  {
+   "fieldname": "numero_agence",
+   "fieldtype": "Link",
+   "label": "Numero Agence",
+   "options": "Agence Ship",
+   "reqd": 1
+  },
+  {
+   "fieldname": "id_trajet",
+   "fieldtype": "Link",
+   "label": "Id Trajet",
+   "options": "Trajet Ship"
+  },
+  {
+   "fieldname": "id_manifeste",
+   "fieldtype": "Int",
+   "label": "Id Manifeste"
+  },
+  {
+   "fieldname": "heure_depart",
+   "fieldtype": "Time",
+   "label": "Heure D\u00e9part"
+  },
+  {
+   "fieldname": "nom_transport",
+   "fieldtype": "Data",
+   "label": "Nom Transport"
+  },
+  {
+   "default": "0",
+   "fieldname": "date_comptabilisation",
+   "fieldtype": "Check",
+   "label": "Date Comptabilisation"
+  },
+  {
+   "fieldname": "caisse_banque",
+   "fieldtype": "Select",
+   "label": "Caisse Banque"
+  },
+  {
+   "fieldname": "nombre_passager",
+   "fieldtype": "Autocomplete",
+   "label": "Nombre Passager"
+  },
+  {
+   "fieldname": "montant",
+   "fieldtype": "Currency",
+   "label": "Montant"
+  },
+  {
+   "fieldname": "devise",
+   "fieldtype": "Link",
+   "label": "Devise",
+   "options": "Devise"
+  },
+  {
+   "fieldname": "statut",
+   "fieldtype": "Select",
+   "label": "Statut"
+  },
+  {
+   "fieldname": "noms",
+   "fieldtype": "Data",
+   "label": "Noms"
+  },
+  {
+   "fieldname": "column_break_oniy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Phone",
+   "label": "Telephone"
+  },
+  {
+   "fieldname": "adresse",
+   "fieldtype": "Text",
+   "label": "Adresse"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Float",
+   "label": "Age"
+  },
+  {
+   "fieldname": "classe_age",
+   "fieldtype": "Float",
+   "label": "Classe Age"
+  },
+  {
+   "fieldname": "classe_siege",
+   "fieldtype": "Link",
+   "label": "Classe Si\u00e8ge",
+   "options": "Classe Ship"
+  },
+  {
+   "fieldname": "prix_siege",
+   "fieldtype": "Currency",
+   "label": "Prix Si\u00e8ge"
+  },
+  {
+   "fieldname": "devise1",
+   "fieldtype": "Link",
+   "label": "Devise1",
+   "options": "Devise"
+  },
+  {
+   "fieldname": "type_identite",
+   "fieldtype": "Select",
+   "label": "Type Identit\u00e9"
+  },
+  {
+   "fieldname": "numero_identite",
+   "fieldtype": "Data",
+   "label": "Num\u00e9ro Identit\u00e9"
+  },
+  {
+   "fieldname": "nombre_bagage",
+   "fieldtype": "Float",
+   "label": "Nombre Bagage "
+  },
+  {
+   "fieldname": "poids_total",
+   "fieldtype": "Float",
+   "label": "Poids Total"
+  },
+  {
+   "fieldname": "poids",
+   "fieldtype": "Float",
+   "label": "Poids "
+  },
+  {
+   "fieldname": "numero_siege",
+   "fieldtype": "Data",
+   "label": "Num\u00e9ro Si\u00e8ge"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-26 15:37:40.895650",
+ "modified_by": "Administrator",
+ "module": "Ship Freight",
+ "name": "Liste Reservation Ship",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
