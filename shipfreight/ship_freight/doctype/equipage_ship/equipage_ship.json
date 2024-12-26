@@ -132,8 +132,9 @@
   },
   {
    "fieldname": "certification",
-   "fieldtype": "Data",
-   "label": "Certification "
+   "fieldtype": "Table",
+   "label": "Certification ",
+   "options": "Certifications Ship"
   },
   {
    "fieldname": "section_breaks",
@@ -141,13 +142,14 @@
   },
   {
    "fieldname": "icidents",
-   "fieldtype": "Data",
-   "label": "Incidents "
+   "fieldtype": "Table",
+   "label": "Incidents ",
+   "options": "Incidents Ship"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-24 22:55:42.073179",
+ "modified": "2024-12-26 10:51:39.186427",
  "modified_by": "Administrator",
  "module": "Ship Freight",
  "name": "Equipage Ship",
