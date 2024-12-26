@@ -1,7 +1,8 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-12-24 11:41:46.349958",
+ "creation": "2024-12-26 12:19:11.237916",
+ "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -10,11 +11,15 @@
   "telephone",
   "adresse",
   "adulte",
-  "classe_siege",
+  "column_break_zydj",
   "numero_identite",
   "type_identite",
+  "section_break_vajc",
+  "reservation",
+  "classe_siege",
   "nombre_bagage",
   "poids",
+  "column_break_ycwr",
   "numero_siege",
   "prix_siege",
   "devise",
@@ -23,29 +28,26 @@
  "fields": [
   {
    "fieldname": "nom",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Nom",
-   "options": "Client Ship",
    "reqd": 1
   },
   {
    "fieldname": "telephone",
-   "fieldtype": "Link",
-   "label": "T\u00e9l\u00e9phon\u00e9",
-   "options": "Client Ship"
+   "fieldtype": "Phone",
+   "label": "Telephone"
   },
   {
    "fieldname": "adresse",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Adresse",
-   "options": "Client Ship",
    "reqd": 1
   },
   {
    "fieldname": "adulte",
-   "fieldtype": "Data",
+   "fieldtype": "Select",
    "label": "Adulte"
   },
   {
@@ -58,9 +60,8 @@
   },
   {
    "fieldname": "numero_identite",
-   "fieldtype": "Link",
-   "label": "Num\u00e9ro Identit\u00e9",
-   "options": "Client Ship"
+   "fieldtype": "Data",
+   "label": "Num\u00e9ro Identit\u00e9"
   },
   {
    "default": "0",
@@ -98,17 +99,47 @@
    "fieldname": "statu",
    "fieldtype": "Select",
    "label": "Statu"
+  },
+  {
+   "fieldname": "section_break_vajc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_zydj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ycwr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reservation",
+   "fieldtype": "Link",
+   "label": "R\u00e9servation ",
+   "options": "Reservation Ship"
   }
  ],
  "index_web_pages_for_search": 1,
- "istable": 1,
  "links": [],
- "modified": "2024-12-26 12:56:34.661316",
+ "modified": "2024-12-26 12:37:27.857670",
  "modified_by": "Administrator",
  "module": "Ship Freight",
- "name": "Passagers Ship",
+ "name": "Client Ship",
  "owner": "Administrator",
- "permissions": [],
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
